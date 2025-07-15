@@ -6,6 +6,7 @@ function App() {
 
   const addValue = () => {
     setCounter(counter + 1);
+    setCounter(counter => counter + 1);
   }
   const decValue = () => {
     if(counter === 0){
